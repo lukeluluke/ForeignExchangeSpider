@@ -57,10 +57,9 @@ class ExchangeRate
 
                     $temp=$out[1][0];
 
-                   // $td = iconv("UTF-8","gb2312",$temp);
-                  //  var_dump($td);
+
                     array_push($currency,$temp);
-                    //var_dump($out[1][0]);
+                    
                 }
 
             }
